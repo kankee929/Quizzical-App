@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+.startpage-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 550px;
+  height: 550px;
+}
+
+.title {
+  font-family: "Karla";
+  font-style: normal;
+  width: 412px;
+  height: 41px;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  margin-bottom: 0;
+  color: #293264;
+}
+
+.description {
+  width: 408px;
+  height: 19px;
+  margin-top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #293264;
+}
+
+.quizBtn {
+  width: 193px;
+  height: 52px;
+  background: #4d5b9e;
+  border-radius: 15px;
+  border: none;
+  font-family: "Inter";
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 19px;
+  color: #f5f7fb;
+  cursor: pointer;
+}
+
+.blobYellow {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.blobBlue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.quiz-container {
+  margin: 40px 60px;
+}
+
+.question {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 20px;
+  color: #293264;
+}
+
+.optionBtn {
+  background: white;
+  border-radius: 7.94239px;
+  border: 0.794239px solid #4d5b9e;
+  padding: 7px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13.24px;
+  text-align: center;
+  color: #293264;
+  margin-right: 30px;
+}
+
+.quiz-container > hr {
+  margin-top: 15px;
+  border: 1px solid #dbdef0;
+}
