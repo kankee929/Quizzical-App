@@ -88,10 +88,67 @@ body {
   font-size: 13.24px;
   text-align: center;
   color: #293264;
+  cursor: pointer;
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
-.quiz-container > hr {
+.ansBtn {
+  /* background: white; */
+  border-radius: 7.94239px;
+  border: 0.794239px solid #4d5b9e;
+  padding: 7px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13.24px;
+  text-align: center;
+  color: #293264;
+  cursor: pointer;
+}
+
+.quiz-container>hr {
   margin-top: 15px;
   border: 1px solid #dbdef0;
+}
+
+.stat-container {
+  margin: auto;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.score {
+  font-family: Inter;
+  font-size: 12.8px;
+  font-weight: bold;
+
+}
+
+.chk-ans {
+  margin: auto;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  background: #4D5B9E;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.play-again {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  background: #4D5B9E;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
