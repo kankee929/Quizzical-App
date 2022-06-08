@@ -20,6 +20,7 @@ function App() {
     const data = arr.map(item => ({
       ...item,
       iselected: false,
+      btnStyle:["styleDefault","styleDefault","styleDefault","styleDefault"],
       optionsArray: item.incorrect_answers.splice(Math.floor(Math.random() * item.incorrect_answers.length), 0, item.correct_answer),
       id: Math.floor((1 + Math.random()) * 0x10000)
         .toString(16)
@@ -56,7 +57,7 @@ function App() {
   function playAgain() {
     window.location.reload(false)
   }
-
+console.log(allQuest);
   const QuizElements = allQuest.map((data1) => {
     return (
       <QuizMainPage
